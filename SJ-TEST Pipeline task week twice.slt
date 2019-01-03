@@ -12,7 +12,11 @@
         "max_failures": 10,
         "max_in_flight": 200,
         "notification": {
-            "recipients": null
+            "recipients": "Sunil.Jadhav@hbo.com",
+            "states": [
+                "Completed",
+                "Failed"
+            ]
         },
         "pipeline_path": "SJ-TEST Pipeline",
         "snaplex_path": "GroundDev"
@@ -25,9 +29,9 @@
             "by": "cron",
             "cron": {
                 "day": "*",
-                "day_of_week": "mon,wed",
-                "hour": "9",
-                "minute": "0",
+                "day_of_week": "mon,thu",
+                "hour": "15",
+                "minute": "45",
                 "month": "*"
             },
             "ends": {
@@ -53,9 +57,9 @@
             "by": "cron",
             "cron": {
                 "day": "*",
-                "day_of_week": "mon,wed",
-                "hour": "9",
-                "minute": "0",
+                "day_of_week": "mon,thu",
+                "hour": "15",
+                "minute": "45",
                 "month": "*"
             },
             "ends": {
