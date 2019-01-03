@@ -1,0 +1,77 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "SJ-TEST Pipeline task week twice",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "regular",
+        "llfeed_token": "OlWnSs1XYyaLNb2YahAbGGEZY1SdRtRr",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": "SJ-TEST Pipeline",
+        "snaplex_path": "GroundDev"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [
+                "2019-01-05"
+            ],
+            "by": "cron",
+            "cron": {
+                "day": "*",
+                "day_of_week": "mon,wed",
+                "hour": "9",
+                "minute": "0",
+                "month": "*"
+            },
+            "ends": {
+                "end_date": "2019-01-31",
+                "end_time": "23:59:00",
+                "occurrences": null,
+                "when": "on"
+            },
+            "every": 1,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2019-01-03",
+        "start_time": "15:36:11",
+        "time_zone": "US/Eastern"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [
+                "2019-01-05"
+            ],
+            "by": "cron",
+            "cron": {
+                "day": "*",
+                "day_of_week": "mon,wed",
+                "hour": "9",
+                "minute": "0",
+                "month": "*"
+            },
+            "ends": {
+                "end_date": "2019-01-31",
+                "end_time": "23:59:00",
+                "occurrences": null,
+                "when": "on"
+            },
+            "every": 1,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2019-01-03",
+        "start_time": "15:36:11",
+        "time_zone": "US/Eastern"
+    },
+    "trigger_type": "ScheduleTrigger"
+}
